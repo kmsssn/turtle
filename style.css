@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+header{
+    height: 1000px;/*Высота блока*/
+    background-color: rgb(185, 162, 207);/*Цвет фона*/
+    color: aliceblue;/*Цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+
+    background-image: url(https://blog.tetra.net/ru/ru/wp-content/uploads/2020/08/krasnouhaya-cherepaha.jpg);
+    background-size: cover;
+    background-position: center;
+
+    text-shadow: 1px 5px 20px black;
+
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+    height: 860px;/*Высота блока*/
+    background-color: rgb(188, 250, 250);/*Цвет фона*/
+    color: #ffffff;/*Цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 10px;
+    display: flex;
+
+    background-image: url(https://t-rexfood.ru/wp-content/uploads/2023/02/01.jpg);
+    background-size: cover;
+    background-position: center;
+
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 5px 20px black;
+}
+
+.лево{
+  width: 50%;
+  font-size: 20px;
+  text-align: justify;
+  text-shadow: 1px 5px 20px black;
+}
+
+.право{
+  width: 50%;
+}
+
+footer{
+    height: 600px;/*Высота блока*/
+    background-color: rgb(255, 196, 241);/*Цвет фона*/
+    color: #ffffff;/*Цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+
+    background-image: url(https://dinozoopasaule.lv/ru/getimage/uploads/questionanswer/wW0bfFzKK6qbv8uv7Q_f-IP8Yq81Dzot.jpg?w=950);
+    background-size: cover;
+    background-position: center;
+
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+}
+
+.черепашкии img{
+  width: 100px;
+  padding-left: 10px;
+}
+
+.черепашкии{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
